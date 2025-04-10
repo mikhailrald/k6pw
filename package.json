@@ -10,5 +10,8 @@
     "playwright": "^1.43.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "k6": "^0.0.0"
   }
 }
