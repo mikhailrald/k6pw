@@ -1,0 +1,14 @@
+{
+  "name": "k6-playwright-perf",
+  "version": "1.0.0",
+  "scripts": {
+    "test:pw": "npx playwright test",
+    "test:full": "npm run test:pw && node k6/convert.js && k6 run k6/perf-test.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "playwright": "^1.43.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
